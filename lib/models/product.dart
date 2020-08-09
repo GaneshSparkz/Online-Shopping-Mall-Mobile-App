@@ -26,7 +26,7 @@ class Product with ChangeNotifier {
     final oldStatus = isFavorite;
     isFavorite = !isFavorite;
     notifyListeners();
-    final url = 'https://trend-mall.firebaseio.com/userFavorites/$userId/$id.json?auth=$token';
+    final url = 'https://project-id.firebaseio.com/userFavorites/$userId/$id.json?auth=$token';
     try {
       final response = await http.put(
         url,
