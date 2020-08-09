@@ -1,6 +1,6 @@
-# trendmall
+# TrendMall
 
-A new Flutter application.
+An Online Shopping Flutter Mobile application for Android and iOS using Firebase backend.
 
 ## Getting Started
 
